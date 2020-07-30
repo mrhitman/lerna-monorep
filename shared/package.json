@@ -1,0 +1,16 @@
+{
+  "name": "@app/shared",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn build",
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
+  }
+}
